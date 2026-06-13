@@ -13,3 +13,31 @@
 | 금 |  |       |      |  |  |  |  |  |  |
 | 토 |       |  |      |       |  |  |  |  |  |
 | 일 |       |       | |       |  |  |  |  |  |
+
+### Computer Architecture
+
+### Data Structure
+
+### Database
+
+### Network
+
+### Operating System
+
+### Software Engineering
+
+### Algorithm
+
+### Design Pattern
+
+### Language
+
+#### C
+
+#### C++
+
+#### Java
+
+### Web
+
+### AI
