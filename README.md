@@ -9,7 +9,7 @@
 | 월 |       | 15일 🐙 |  |   |  |  |  |  |  |
 | 화 |       |        |  |   |  |  |  |  |  |
 | 수 |       |        |      |  |  |  |  |  |  |
-| 목 |       |        | |  |  |  |  |  |  |
+| 목 |       | 18일 🐙 | |  |  |  |  |  |  |
 | 금 |  |        |      |  |  |  |  |  |  |
 | 토 |       |        |      |       |  |  |  |  |  |
 | 일 |       |        | |       |  |  |  |  |  |
@@ -19,7 +19,7 @@
 ### Data Structure
 
 ### Database
-
+- [Transaction](db/Transaction.md)
 ### Network
 - [TCP](network/TCP.md)
 
