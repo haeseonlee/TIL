@@ -20,7 +20,7 @@
 
 ### Database
 - [트랜잭션](db/transaction/트랜잭션.md)
-- [AOP와 트랜잭션 동작원리](db/transaction/%ED%8A%B8%EB%9E%9C%EC%9E%AD%EC%85%98%20%EB%8F%99%EC%9E%91%EC%9B%90%EB%A6%AC.md)
+- [AOP와 트랜잭션 동작원리](db/transaction/AOP%EC%99%80%20%ED%8A%B8%EB%9E%9C%EC%9E%AD%EC%85%98%20%EB%8F%99%EC%9E%91%EC%9B%90%EB%A6%AC.md)
 - [비관적 락&낙관적 락](db/pessimisticlock%26optimisticlock/%EB%B9%84%EA%B4%80%EC%A0%81%20%EB%9D%BD%26%EB%82%99%EA%B4%80%EC%A0%81%20%EB%9D%BD.md)
 
 ### Network
