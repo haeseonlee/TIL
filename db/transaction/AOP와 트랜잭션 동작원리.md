@@ -28,7 +28,7 @@ public void registerMember(Member member) {
 - AOP를 사용하면 이 공통적인 트랜잭션 처리 로직을 한 곳에 묶어두고, 비즈니스 로직은 순수하게 핵심 기능에만 집중할 수 있게 된다.
 
 ## Spring AOP는 왜 프록시(Proxy)를 사용하는가?
-- 스프링은 대상 객체(Target)의 코드를 직접 수정하지 않고 AOP를 구현하기 위해 프록시 패턴을 사용한다.
+스프링은 대상 객체(Target)의 코드를 직접 수정하지 않고 AOP를 구현하기 위해 프록시 패턴을 사용한다.
 
 ### 프록시(Proxy)를 사용하는 이유
 - 자바 언어 자체를 뜯어고치거나, 매번 컴파일 시점에 특수한 처리를 하는 것은 매우 복잡하다. 반면, 스프링은 런타임 시점에 프록시를 동적으로 생성하여 이 문제를 해결한다. 
@@ -40,7 +40,7 @@ public void registerMember(Member member) {
   - CGLIB: 인터페이스가 없을 때(또는 스프링부트 기본 값). 타켓 클래스를 상속받아 바이트코드를 조작하여 프록시 생성
   
 ## @Transactional은 어떻게 동작하는가?
-- 스프링은 `@Transactional` 어노테이션을 발견하면 내부적으로 트랜잭션 AOP 프록시를 적용한다.
+스프링은 `@Transactional` 어노테이션을 발견하면 내부적으로 트랜잭션 AOP 프록시를 적용한다.
 ```
 @Service
 public class MemberService {
@@ -60,7 +60,7 @@ public class MemberService {
 - **트랜잭션 동기화 매니저(TransactionSynchronizationManager)**: 트랜잭션이 시작되면 획득한 데이터베이스 커넥션을 스레드 로컬(ThreadLocal)에 보관하여, 같은 스레드 내에서 실행되는 비즈니스 로직들이 동일한 비즈니스 커넥션을 공유할 수 있도록 돕는다.
 
 ## 내부 동작 흐름
-- 클라이언트가 `@Transactiona`l이 적용된 메서드를 호출하면 다음과 같은 순서로 내부 매커니즘이 작동한다.
+클라이언트가 `@Transactional`이 적용된 메서드를 호출하면 다음과 같은 순서로 내부 매커니즘이 작동한다.
 
 #### 1. 프록시(Proxy) 호출
 - 클라이언트가 타겟 객체의 메서드를 호출하면, 실제 타켓이 아닌 프록시 객체의 메서드가 대신 호출된다. 
