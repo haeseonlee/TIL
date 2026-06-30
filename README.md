@@ -7,7 +7,7 @@
 |  | 6월 |        |        |        |  |  |  |  |  |
 | --- |---|--------|--------|--------| --- | --- | --- | --- | --- |
 | 월 |   | 15일 🐙 | 22일 🐙 | 29일 🐙 |  |  |  |  |  |
-| 화 |   |        | 23일 🐙 |        |  |  |  |  |  |
+| 화 |   |        | 23일 🐙 | 30일 🐙 |  |  |  |  |  |
 | 수 |   |        |        |        |  |  |  |  |  |
 | 목 |   | 18일 🐙 | 25일 🐙 |        |  |  |  |  |  |
 | 금 |   | 19일 🐙 |        |        |  |  |  |  |  |
@@ -26,6 +26,7 @@
 ### Network
 - [TCP](network/tcp/TCP.md)
 - [UDP](network/udp/UDP.md)
+- [TCPvsUDP](network/TCPvsUDP/TCPvsUDP.md)
 - [AWS](network/aws/aws.md)
 - [캐시&쿠키&세션](network/%EC%BA%90%EC%8B%9C%26%EC%BF%A0%ED%82%A4%26%EC%84%B8%EC%85%98/%EC%BA%90%EC%8B%9C%26%EC%BF%A0%ED%82%A4%26%EC%84%B8%EC%85%98.md)
 
